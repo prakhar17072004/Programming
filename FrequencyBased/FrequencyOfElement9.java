@@ -1,6 +1,6 @@
-class FrequencyOfElement7
+class FrequencyOfElement9
 {
-  public static void printfreqMax(int[] a)
+  public static int [] printfreqNonRepeating(int[] a)
   {
     int [] freq = new int [101];
      for(int i=0;i<a.length;i++)
@@ -8,28 +8,28 @@ class FrequencyOfElement7
        freq[a[i]]++;
        
      }
-      int max=0; int element = a[0];
+      
      for(int i=0;i<freq.length;i++)
      {
     
      
-     if(freq[i]>max)
+     if(freq[a[i]]==1)
      
      { 
-       max = freq[i];
-       element =i;
+       return a[i];
      
        
       }
       
     }
-    System.out.println("element  " +element + "  is max time"+ max);
+    
    }
    
    public static void main(String[] arg)
    { 
       int [] a={12,12,23,23,34};
-       printfreqMax(a);
+      int [] b= printfreqNonRepeating(a);
+      System.out.println(b);
    }
    
   }    

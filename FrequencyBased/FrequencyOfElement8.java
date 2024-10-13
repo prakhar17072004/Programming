@@ -1,4 +1,4 @@
-class FrequencyOfElement7
+class FrequencyOfElement8
 {
   public static void printfreqMax(int[] a)
   {
@@ -13,7 +13,7 @@ class FrequencyOfElement7
      {
     
      
-     if(freq[i]>max)
+     if(freq[i]>=max)
      
      { 
        max = freq[i];
