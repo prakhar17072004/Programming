@@ -12,9 +12,12 @@ class NumberIsPositiveOrNegative
     System.out.println("Number is postive");
     
   }
-  else{
+  else if(s<0){
     System.out.println("number is negative");
-    }  
+    } 
+    else{
+    System.out.println("number is 0");
+    } 
     
     
   }  
