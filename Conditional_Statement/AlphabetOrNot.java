@@ -9,10 +9,10 @@ class AlphabetOrNot
    
    if(ch >='a' && ch<='z'||ch>='A'&& ch<='Z')
    {
-   System.out.println("Is  alphabet");
+      System.out.println("Is  alphabet");
    }
    else{
-   System.out.println("Not alphabet");
+      System.out.println("Not alphabet");
    }
    }
  }  
