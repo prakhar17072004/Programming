@@ -9,7 +9,7 @@ class ReverseArray{
     }
     System.out.println("Reverse array");
     for(int i=0;i<a.length;i++){
-    System.out.print( a[i] + " \n");
+    System.out.print( a[i] + " ");
       }
     }
   }
